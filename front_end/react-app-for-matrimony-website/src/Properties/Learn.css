@@ -1,0 +1,11 @@
+.learnDiv{
+    background-color: violet;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.head1, .desc{
+    margin-top: 0px;
+    margin-left: 0px;
+    color: rgb(249, 107, 13);
+    background-color: rgb(240, 255, 240);
+}

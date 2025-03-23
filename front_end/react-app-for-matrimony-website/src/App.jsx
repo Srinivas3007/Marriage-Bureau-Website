@@ -1,35 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import apiConfig from './api/apiConfig'
-import { useEffect } from 'react'
+import Learn from './Properties/Learn'
+
 
 function App() {
-  const [Person, setPerson] = useState();
-
-  const getPerson = async () =>{
-    try{
-      const response = await apiConfig.get('/mongo/getAll');
-      console.log(response.data);
-      setPerson(response.data);
-    }catch(err){
-      console.log(err);
-    }
-    
-  }
-
-  useEffect(()=>{
-    getPerson();
-  }, []);
-
   return (
     <>
-      <div>
-        
+      <div className="propDisplay">
+        <Learn title="Properties In React" desc="This is a demo on using properties in React" price="30K"></Learn>
+        <Learn title="React Props demo" desc="React demo app for illustrating Props concept" price={25000}></Learn>
       </div>
     </>
-  )
+  );
 }
 
 export default App
