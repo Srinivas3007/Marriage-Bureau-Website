@@ -4,9 +4,9 @@
     height: auto;
     padding: 20px 40px;
     border: 5px solid rgb(45, 234, 12);
-    margin: auto 20px ;
     background-color: aqua;
-    transition: 0.5s;
+    align-self:center;
+    transition: 0.5s 0.1s;  
 }
 
 #demo1:hover{
