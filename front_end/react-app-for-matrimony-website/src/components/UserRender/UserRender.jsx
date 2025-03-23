@@ -1,4 +1,5 @@
 import User from "../users/User";
+import './UserRender.css';
 
 export default function UserRender({Person}){
     if (!Person || !Array.isArray(Person) || Person.length === 0) {
@@ -6,8 +7,8 @@ export default function UserRender({Person}){
     }
 
     const list = Person.map(person =>{
-        return <User person={person}/>;
+        return <User person={person}/> ;
     });
 
-    return <>{list}</>;
+    return <div className="demo">{list}</div>;
 }
