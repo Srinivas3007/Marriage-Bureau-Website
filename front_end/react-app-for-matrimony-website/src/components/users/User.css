@@ -1,11 +1,10 @@
 #demo1{
     display: inline-block;
-    width:auto;
+    width:300px;
     height: auto;
     padding: 20px 40px;
     border: 5px solid rgb(45, 234, 12);
     background-color: aqua;
-    align-self:center;
     transition: 0.5s 0.1s;  
 }
 

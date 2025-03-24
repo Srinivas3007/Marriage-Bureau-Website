@@ -1,13 +1,11 @@
  .demo{
     background-color: blueviolet;
     width: auto;
-    height: 400px;
+    height: auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly; 
-    /* flex: 1.5 1.5 100px;
-    min-width: 50px;
+    justify-content: center;
+    flex-wrap: wrap; /* this is for parent container element */
     /* display:grid;
     justify-content: center;
     grid-template-rows: repeat(2, 1fr);
