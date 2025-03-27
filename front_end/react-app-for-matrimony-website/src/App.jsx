@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import apiConfig from './api/apiConfig'
 import { useEffect } from 'react'
 import UserRender from './components/UserRender/UserRender'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './components/Home/Home'
 
 function App() {
   const [Person, setPerson] = useState(null); // Initialize Person to null
@@ -26,7 +28,7 @@ function App() {
 
   return (
     <>
-      <UserRender Person={Person}/>
+      <Home/>
     </>
   )
 }

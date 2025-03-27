@@ -1,0 +1,30 @@
+.home{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: 65vh auto 20vh;
+    grid-gap: 10px;
+}
+
+.hero{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-image: url("./src/assets/back2.avif");
+    grid-template-rows: repeat(2, 1fr);
+    display: grid;
+}
+
+.main-heading{
+    color: bisque;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.main-heading h1{
+    bottom: 0px;
+}
+
+.caption{
+    color: chocolate;
+    grid-column: 1/2;
+    grid-row:2/3;
+}

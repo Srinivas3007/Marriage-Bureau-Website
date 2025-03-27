@@ -3,6 +3,7 @@
     width:300px;
     height: auto;
     padding: 20px 40px;
+    margin: 20px auto;
     border: 5px solid rgb(45, 234, 12);
     background-color: aqua;
     transition: 0.5s 0.1s;  
@@ -15,5 +16,17 @@
     border-color: bisque;
     box-shadow: 2px 2px 16px rgb(232, 220, 3);
     transform: scale(1.05) translateX(5px);
-    background-image: url("./src/assets/react.svg");
+    background-image: url("./src/assets/back2.jpg");
+}
+
+ #demo1:nth-child(n){
+    animation: h1-animation-1 2s linear 3s infinite normal;
+}
+
+@keyframes h1-animation-1{
+    0%{color: red;}
+    25%{color: pink;}
+    50%{color: green;}
+    75%{color:orange}
+    100%{color: blue;}
 }
